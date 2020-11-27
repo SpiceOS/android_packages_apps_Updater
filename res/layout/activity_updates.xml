@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
-        app:layout_behavior="com.crdroid.updater.ui.FlingBehavior">
+        app:layout_behavior="com.spiceos.updater.ui.FlingBehavior">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -82,7 +82,7 @@
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="12sp" />
 
-                <LinearLayout 
+                <LinearLayout
                     android:id="@+id/support_icons"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
                         android:textColor="?android:attr/textColorPrimary"
                         android:textSize="12sp" />
 
-                    <LinearLayout 
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
