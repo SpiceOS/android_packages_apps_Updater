@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater.misc;
+package com.spiceos.updater.misc;
 
 import android.app.AlarmManager;
 import android.content.ClipData;
@@ -33,12 +33,12 @@ import android.widget.Toast;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.lineageos.updater.R;
-import org.lineageos.updater.UpdatesDbHelper;
-import org.lineageos.updater.controller.UpdaterService;
-import org.lineageos.updater.model.Update;
-import org.lineageos.updater.model.UpdateBaseInfo;
-import org.lineageos.updater.model.UpdateInfo;
+import com.spiceos.updater.R;
+import com.spiceos.updater.UpdatesDbHelper;
+import com.spiceos.updater.controller.UpdaterService;
+import com.spiceos.updater.model.Update;
+import com.spiceos.updater.model.UpdateBaseInfo;
+import com.spiceos.updater.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;

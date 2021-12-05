@@ -13,28 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater.model;
+package com.spiceos.updater;
 
-import java.io.File;
+import androidx.appcompat.app.AppCompatActivity;
 
-public interface UpdateInfo extends UpdateBaseInfo {
-    UpdateStatus getStatus();
-
-    int getPersistentStatus();
-
-    File getFile();
-
-    long getFileSize();
-
-    int getProgress();
-
-    long getEta();
-
-    long getSpeed();
-
-    int getInstallProgress();
-
-    boolean getAvailableOnline();
-
-    boolean getFinalizing();
+public abstract class UpdatesListActivity extends AppCompatActivity {
+    public abstract void showSnackbar(int stringId, int duration);
 }
